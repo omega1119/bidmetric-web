@@ -50,5 +50,5 @@ http-server -p 8080
 
 ## Future Localization
 When adding new languages, create folders under `docs/` (e.g., `docs/de/`, `docs/fr/`) and update:
-1. `docs/index.html` — add redirect mapping
+1. `docs/index.html`: add redirect mapping
 2. Language selector dropdowns in all HTML files
