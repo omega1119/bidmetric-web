@@ -57,7 +57,5 @@ or JS that reads them by exact string:
 - `assets/images/og-image.png` is a generated placeholder share image (brand name on
   the dark background). Replace it with a designed one when available, keeping the
   filename, so no page needs editing.
-- The README and `LOCAL_DEV.md` still describe an old `docs/` folder layout. It is
-  stale: the site files live at the repo root. Trust the file tree.
 - Cache-busting: CSS and JS are referenced with a `?v=N` query string. Bump it when
   you change `styles.css` or `main.js`.
