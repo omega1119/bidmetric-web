@@ -212,14 +212,6 @@ main {
   pointer-events: none;
 }
 .hero-inner { max-width: 720px; margin: 0 auto; position: relative; z-index: 1 }
-.hero-label {
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 32px;
-}
 .hero h1 { 
   font-size: clamp(44px, 7vw, 76px); 
   margin: 0 0 20px;
@@ -255,13 +247,6 @@ main {
   margin-bottom: 32px;
 }
 
-.cta-row { 
-  display: flex; 
-  gap: 16px; 
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
 .btn { 
   display: inline-block; 
   padding: 14px 28px; 
@@ -271,25 +256,6 @@ main {
   font-size: 15px;
   transition: all 0.2s ease;
   border: 2px solid transparent;
-}
-.btn-primary { 
-  background: var(--accent); 
-  color: white;
-  border-color: var(--accent);
-}
-.btn-primary:hover { 
-  background: transparent;
-  color: var(--accent);
-  transform: translateY(-1px);
-}
-.btn-secondary { 
-  border: 2px solid var(--border); 
-  background: transparent; 
-  color: var(--text);
-}
-.btn-secondary:hover {
-  border-color: var(--text);
-  transform: translateY(-1px);
 }
 .btn:focus { outline: 2px solid var(--accent); outline-offset: 4px }
 
@@ -322,15 +288,6 @@ main {
   letter-spacing: -1.5px;
   margin-bottom: 24px;
   text-align: center;
-}
-
-.section-lead {
-  color: var(--muted);
-  font-size: 17px;
-  line-height: 1.6;
-  text-align: center;
-  max-width: 640px;
-  margin: 0 auto 48px;
 }
 
 /* ==========================================
@@ -488,7 +445,6 @@ main {
 @media (max-width: 768px) {
   .hero { padding: 100px 0 80px }
   .hero h1 { font-size: 34px; letter-spacing: -1.5px }
-  .hero-label { font-size: 11px; margin-bottom: 20px }
   .brand-statement { padding: 60px 0 }
   .brand-text { font-size: 17px }
   .contact { padding: 60px 0 }
@@ -525,3 +481,13 @@ main {
     text-align: center;
   }
 }
+
+.legal-content { color: var(--muted); font-size: 16px; line-height: 1.7; margin-top: 32px }
+.legal-content h2 { font-size: 24px; font-weight: 700; color: var(--text); margin-bottom: 16px; margin-top: 40px }
+.legal-content h2:first-child { margin-top: 0 }
+.legal-content p { margin-bottom: 24px }
+.legal-content ul { margin-bottom: 24px; padding-left: 24px }
+.legal-content li { margin-bottom: 8px }
+.legal-content a { color: var(--accent) }
+.legal-content strong { color: var(--text) }
+.legal-date { color: var(--muted); font-size: 14px; margin-top: 48px }

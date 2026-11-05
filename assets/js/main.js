@@ -91,7 +91,7 @@
 
   // ── Cookie Consent Injector ──────────────────────────────
   const COOKIE_STRINGS = {
-    en: { text: 'We use cookies to analyze site traffic and improve your experience. By clicking "Accept", you consent to our use of cookies.', accept: 'Accept', deny: 'Deny', privacy: 'Privacy Policy' }
+    en: { text: 'We use cookies to analyse site traffic. By clicking "Accept", you consent to our use of cookies.', accept: 'Accept', deny: 'Deny', privacy: 'Privacy policy' }
   };
 
   function initCookieConsent() {
